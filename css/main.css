@@ -104,7 +104,11 @@ body {
 .four .bag{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.four .bag .boxone{
+    border: solid black 1px;
+    width: 30vw;
 }
 
 
