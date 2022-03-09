@@ -98,7 +98,13 @@ body {
 
 .four{
     height: 30vh;
-    width: 100vw;  
+    width: 100vw; 
+    text-align: center; 
+}
+.four .bag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
