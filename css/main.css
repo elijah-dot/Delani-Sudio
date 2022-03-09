@@ -60,16 +60,37 @@ body {
 
 .three{
     background-image: url(../images/s_image.jpg);
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
     position: relative;
     background-size: cover;
 }
 .overlaytwo{
     position: absolute;
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
     color: white;
     text-align: center;
+}
+
+.three h3{
+    font-weight:bolder;
+    font-size:  25px;
+    margin-top: 60px;  
+}
+
+.three .para4{
+    font-weight:bolder;
+    font-size:  12px;  
+}
+
+.three .para5{
+    font-weight:bolder;
+    font-size:  12px;  
+}
+
+.three .para6{
+    font-weight:bolder;
+    font-size:  12px;  
 }
 
