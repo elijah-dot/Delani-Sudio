@@ -56,3 +56,13 @@ body {
     font-size:  12px;  
 }
 
+/* section three */
+
+.three{
+    background-image: url(../images/s_image.jpg);
+    height: 35vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+}
+
