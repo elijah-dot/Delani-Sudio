@@ -35,3 +35,10 @@ body {
 .one .overlay .content .pictwo {
   margin-top: 120px;
 }
+
+/* section two */
+.two{
+    height: 45vh;
+    width: 100vw;
+    text-align: center;
+}
