@@ -42,3 +42,9 @@ body {
     width: 100vw;
     text-align: center;
 }
+.two h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+
