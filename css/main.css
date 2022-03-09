@@ -1,19 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.one{
-    background-image: url(../images/h_img.png);
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    position: relative;
+.one {
+  background-image: url(../images/h_img.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
 }
-.one .overlay{
-    color: white;
-    text-align: center;
-    
+.overlay {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
