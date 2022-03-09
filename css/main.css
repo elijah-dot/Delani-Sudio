@@ -65,4 +65,11 @@ body {
     position: relative;
     background-size: cover;
 }
+.overlaytwo{
+    position: absolute;
+    height: 35vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+}
 
