@@ -107,3 +107,15 @@ $("#mo").hover(
     $("#mp").css("display", "block").slideUp(1000);
   }
 );
+// validation for all the inputs
+
+let emailInput = document.getElementById("email").value;
+let nameInput = document.getElementById("name").value;
+
+function validate(){
+  alert("hey")
+
+
+
+
+}

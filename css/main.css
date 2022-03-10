@@ -420,7 +420,7 @@ body {
 .six {
   position: relative;
   background-image: url(../images/c_image.png);
-  height: 65vh;
+  height:70vh;
   width: 100vw;
   background-size: cover;
 }
