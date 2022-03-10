@@ -107,15 +107,46 @@ $("#mo").hover(
     $("#mp").css("display", "block").slideUp(1000);
   }
 );
+
 // validation for all the inputs
 
-let emailInput = document.getElementById("email").value;
-let nameInput = document.getElementById("name").value;
+let emailInput = document.getElementById("email");
+let nameInput = document.getElementById("name");
+let type_error = document.getElementById("name_error");
+let messages = document.getElementById("message");
 
-function validate(){
-  alert("hey")
+function validate() {
+  event.preventDefault;
+  if (emailInput.value <= 0) {
+    type_error.innerHTML = "enter email";
+    type_error.style.color = "red";
+    type_error.style.fontSize = "30px";
+    emailInput.focus();
+    return false;
+  } else {
+    emailInput.style.border = "solid 2px green";
+  }
 
+  if (nameInput.value <= 0) {
+    type_error.innerHTML = "enter name";
+    type_error.style.color = "red";
+    type_error.style.fontSize = "30px";
+    nameInput.focus();
+    return false;
+  } else {
+    nameInput.style.border = "solid 2px green";
+    type_error.innerHTML = "";
+  }
 
-
-
+  if (messages.value <= 0) {
+    type_error.innerHTML = "write your message";
+    type_error.style.color = "red";
+    type_error.style.fontSize = "30px";
+    messages.focus();
+    return false;
+  } else {
+    messages.style.border = "solid 2px green";
+    type_error.innerHTML = "";
+  }
 }
+//reset buton
