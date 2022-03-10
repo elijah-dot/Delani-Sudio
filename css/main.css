@@ -431,3 +431,11 @@ body {
     text-align: center;
     color: white;
 }
+.inside .bagfour{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 100px;
+
+  
+}
