@@ -20,4 +20,15 @@ $("#toptwo").click(function () {
       $("#texttwo").css("display","none");
   });
 
+//image three
+
+$("#topthree").click(function () {
+    $("#textthree").css("display", "block");
+    $("#topthree").css("display", "none");
+   });
+  $("#textthree").click(function(){
+      $("#topthree").css("display","block");
+      $("#textthree").css("display","none");
+  });
+
 
