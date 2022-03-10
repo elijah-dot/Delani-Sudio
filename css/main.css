@@ -97,7 +97,7 @@ body {
 /* section four */
 
 .four{
-    height: 30vh;
+    height: 40vh;
     width: 100vw; 
     text-align: center; 
 }
@@ -147,6 +147,14 @@ body {
 }
 .four .bag .boxthree #textthree{
     display: none;
+}
+
+/* section five */
+
+.five{
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
 }
 
 
