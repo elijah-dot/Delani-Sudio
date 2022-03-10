@@ -424,33 +424,36 @@ body {
   width: 100vw;
   background-size: cover;
 }
-.inside{
-    position: absolute;
-    height: 70vh;
-    width: 100vw;
-    text-align: center;
-    color: white;
+.inside {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  text-align: center;
+  color: white;
 }
-.inside .bagfour{
+.inside .bagfour {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 100px;
-
-  
 }
-.inside #message{
+.inside #message {
   height: 40vh;
   width: 50vw;
   margin: 30px;
   text-align: center;
-  
 }
 /* about inputs */
 
 /* section seven */
 
-
- 
-
-
+.seven {
+  height: 10vh;
+  width: 100vw;
+}
+.seven .footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 500px;
+}
