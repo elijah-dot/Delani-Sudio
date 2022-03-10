@@ -116,12 +116,16 @@ body {
     width: 30vw;
     font-weight: bold;
     
+    
+}
+.four .bag .boxone #iconone{
+    display: block;
 }
 .four .bag .boxone h5{
     font-weight: bolder;
 }
 .four .bag .boxone #textone{
-    display: none;
+     display: none; 
 }
 
 .four .bag .boxtwo{
