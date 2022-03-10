@@ -197,7 +197,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imageone .overlaythree .logo {
   margin-top: 60px;
@@ -220,7 +220,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imagetwo .overlayfour .logo {
   margin-top: 60px;
@@ -247,7 +247,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imagethree .overlayfive .logo {
   margin-top: 60px;
@@ -273,7 +273,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imagefour .overlaysix .logo {
   margin-top: 60px;
@@ -332,7 +332,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imagefive .overlayseven .logo {
   margin-top: 60px;
@@ -358,7 +358,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imagesix .overlayeight .logo {
   margin-top: 60px;
@@ -384,7 +384,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imageseven .overlaynine .logo {
   margin-top: 60px;
@@ -410,7 +410,7 @@ body {
   height: 300px;
   width: 300px;
   background: rgb(255, 255, 255, 0.2);
-  display: block;
+  display: none;
 }
 .imageeight .overlayten .logo {
   margin-top: 60px;
