@@ -283,4 +283,141 @@ body {
   padding: 10px;
   font-weight: bold;
   color: aliceblue;
+ }
+
+/* bagthree */
+
+.five .bagthree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .five .bagthree .boxeight {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .five .bagthree .boxnine {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .five .bagthree .boxten {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .five .bagthree .boxeleven {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
+
+/* boxeight */
+
+.imagefive {
+  background-image: url(../images/work5.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imagefive .overlayseven {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imagefive .overlayseven .logo {
+  margin-top: 60px;
+  color: orange;
+}
+.imagefive .overlayseven .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+/* boxnine */
+
+.imagesix {
+  background-image: url(../images/work6.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imagesix .overlayeight {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imagesix .overlayeight .logo {
+  margin-top: 60px;
+  color: orange;
+}
+.imagesix .overlayeight .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+/* boxten */
+
+.imageseven {
+  background-image: url(../images/work7.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imageseven .overlaynine {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imageseven .overlaynine .logo {
+  margin-top: 60px;
+  color: orange;
+}
+.imageseven .overlaynine .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+/* boxeleven */
+
+.imageeight {
+  background-image: url(../images/work8.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imageeight .overlayten {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imageeight .overlayten .logo {
+  margin-top: 60px;
+  color: orange;
+}
+.imageeight .overlayten .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
 }
