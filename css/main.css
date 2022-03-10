@@ -201,7 +201,7 @@ body {
 }
 .imageone .overlaythree .logo {
   margin-top: 60px;
-   color: aliceblue;
+  color: aliceblue;
 }
 .imageone .overlaythree .logo h3 {
   padding: 10px;
@@ -224,7 +224,7 @@ body {
 }
 .imagetwo .overlayfour .logo {
   margin-top: 60px;
-  color:aliceblue;
+  color: aliceblue;
 }
 .imagetwo .overlayfour .logo h3 {
   padding: 10px;
@@ -251,7 +251,6 @@ body {
 }
 .imagethree .overlayfive .logo {
   margin-top: 60px;
-  color: orange;
 }
 .imagethree .overlayfive .logo h3 {
   padding: 10px;
@@ -277,45 +276,44 @@ body {
 }
 .imagefour .overlaysix .logo {
   margin-top: 60px;
-  color: orange;
 }
 .imagefour .overlaysix .logo h3 {
   padding: 10px;
   font-weight: bold;
   color: aliceblue;
- }
+}
 
 /* bagthree */
 
 .five .bagthree {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 50px;
-  }
-  .five .bagthree .boxeight {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
-  
-  .five .bagthree .boxnine {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
-  
-  .five .bagthree .boxten {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
-  
-  .five .bagthree .boxeleven {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.five .bagthree .boxeight {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.five .bagthree .boxnine {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.five .bagthree .boxten {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.five .bagthree .boxeleven {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
 
 /* boxeight */
 
@@ -331,17 +329,16 @@ body {
   text-align: center;
   height: 300px;
   width: 300px;
-  background: rgb(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255, 0.3);
   display: none;
 }
 .imagefive .overlayseven .logo {
   margin-top: 60px;
-  color: orange;
 }
 .imagefive .overlayseven .logo h3 {
   padding: 10px;
   font-weight: bold;
-  color: aliceblue;
+  color: rgb(176, 218, 255);
 }
 /* boxnine */
 
@@ -362,12 +359,11 @@ body {
 }
 .imagesix .overlayeight .logo {
   margin-top: 60px;
-  color: orange;
 }
 .imagesix .overlayeight .logo h3 {
   padding: 10px;
   font-weight: bold;
-  color: aliceblue;
+  color: rgb(167, 213, 253);
 }
 /* boxten */
 
@@ -388,7 +384,6 @@ body {
 }
 .imageseven .overlaynine .logo {
   margin-top: 60px;
-  color: orange;
 }
 .imageseven .overlaynine .logo h3 {
   padding: 10px;
@@ -414,7 +409,6 @@ body {
 }
 .imageeight .overlayten .logo {
   margin-top: 60px;
-  color: orange;
 }
 .imageeight .overlayten .logo h3 {
   padding: 10px;
