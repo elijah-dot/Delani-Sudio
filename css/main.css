@@ -101,15 +101,27 @@ body {
     width: 100vw; 
     text-align: center; 
 }
+.four h3{
+    margin: 50px;
+    font-weight: bolder;
+}
 .four .bag{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .four .bag .boxone{
     border: solid transparent 1px;
     width: 30vw;
     font-weight: bold;
+    
+}
+.four .bag .boxone h5{
+    font-weight: bolder;
+}
+.four .bag .boxone #textone{
+    display: none;
 }
 
 .four .bag .boxtwo{
@@ -117,11 +129,22 @@ body {
     width: 30vw;
     font-weight: bold;
 }
-
+.four .bag .boxtwo h5{
+    font-weight: bolder;
+}
+.four .bag .boxtwo #texttwo{
+    display: none;
+}
 .four .bag .boxthree{
     border: solid transparent 1px;
     width: 30vw;
     font-weight: bold;
+}
+.four .bag .boxthree h5{
+    font-weight: bolder;
+}
+.four .bag .boxthree #textthree{
+    display: none;
 }
 
 
