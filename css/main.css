@@ -420,7 +420,7 @@ body {
 .six {
   position: relative;
   background-image: url(../images/c_image.png);
-  height: 70vh;
+  height: 65vh;
   width: 100vw;
   background-size: cover;
 }
@@ -439,3 +439,18 @@ body {
 
   
 }
+.inside #message{
+  height: 40vh;
+  width: 50vw;
+  margin: 30px;
+  text-align: center;
+  
+}
+/* about inputs */
+
+/* section seven */
+
+
+ 
+
+
