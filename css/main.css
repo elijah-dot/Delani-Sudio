@@ -4,7 +4,7 @@
 }
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .one {
   background-image: url(../images/h_img.png);
@@ -23,138 +23,164 @@ body {
 .one .overlay .content {
   margin-top: 300px;
 }
-.one .overlay .content h1{
+.one .overlay .content h1 {
   margin-top: 50px;
   font-weight: bolder;
-  
 }
-.one .overlay .content #para1{
-    font-weight:bolder;
-    font-size:  12px; 
+.one .overlay .content #para1 {
+  font-weight: bolder;
+  font-size: 12px;
 }
 .one .overlay .content .pictwo {
   margin-top: 120px;
 }
 
 /* section two */
-.two{
-    height: 25vh;
-    width: 100vw;
-    text-align: center;
+.two {
+  height: 25vh;
+  width: 100vw;
+  text-align: center;
 }
-.two h3{
-    font-size: 25px;
-    font-weight: bolder;
-    margin-top: 60px;
+.two h3 {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 60px;
 }
-.two .para2{
-    font-weight:bolder;
-    font-size:  12px;  
+.two .para2 {
+  font-weight: bolder;
+  font-size: 12px;
 }
-.two .para3{
-    font-weight:bolder;
-    font-size:  12px;  
+.two .para3 {
+  font-weight: bolder;
+  font-size: 12px;
 }
 
 /* section three */
 
-.three{
-    background-image: url(../images/s_image.jpg);
-    height: 30vh;
-    width: 100vw;
-    position: relative;
-    background-size: cover;
+.three {
+  background-image: url(../images/s_image.jpg);
+  height: 30vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
 }
-.overlaytwo{
-    position: absolute;
-    height: 30vh;
-    width: 100vw;
-    color: white;
-    text-align: center;
-}
-
-.three h3{
-    font-weight:bolder;
-    font-size:  25px;
-    margin-top: 60px;  
+.overlaytwo {
+  position: absolute;
+  height: 30vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
 }
 
-.three .para4{
-    font-weight:bolder;
-    font-size:  12px;  
+.three h3 {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 60px;
 }
 
-.three .para5{
-    font-weight:bolder;
-    font-size:  12px;  
+.three .para4 {
+  font-weight: bolder;
+  font-size: 12px;
 }
 
-.three .para6{
-    font-weight:bolder;
-    font-size:  12px;  
+.three .para5 {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.three .para6 {
+  font-weight: bolder;
+  font-size: 12px;
 }
 
 /* section four */
 
-.four{
-    height: 40vh;
-    width: 100vw; 
-    text-align: center; 
+.four {
+  height: 40vh;
+  width: 100vw;
+  text-align: center;
 }
-.four h3{
-    margin: 50px;
-    font-weight: bolder;
+.four h3 {
+  margin: 50px;
+  font-weight: bolder;
 }
-.four .bag{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.four .bag .boxone{
-    border: solid transparent 1px;
-    width: 30vw;
-    font-weight: bold;
-    
-    
+.four .bag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.four .bag .boxone h5{
-    font-weight: bolder;
-}
-.four .bag .boxone #textone{
-     display: none; 
+.four .bag .boxone {
+  border: solid transparent 1px;
+  width: 30vw;
+  font-weight: bold;
 }
 
-.four .bag .boxtwo{
-    border: solid transparent 1px;
-    width: 30vw;
-    font-weight: bold;
+.four .bag .boxone h5 {
+  font-weight: bolder;
 }
-.four .bag .boxtwo h5{
-    font-weight: bolder;
+.four .bag .boxone #textone {
+  display: none;
 }
-.four .bag .boxtwo #texttwo{
-    display: none;
+
+.four .bag .boxtwo {
+  border: solid transparent 1px;
+  width: 30vw;
+  font-weight: bold;
 }
-.four .bag .boxthree{
-    border: solid transparent 1px;
-    width: 30vw;
-    font-weight: bold;
+.four .bag .boxtwo h5 {
+  font-weight: bolder;
 }
-.four .bag .boxthree h5{
-    font-weight: bolder;
+.four .bag .boxtwo #texttwo {
+  display: none;
 }
-.four .bag .boxthree #textthree{
-    display: none;
+.four .bag .boxthree {
+  border: solid transparent 1px;
+  width: 30vw;
+  font-weight: bold;
+}
+.four .bag .boxthree h5 {
+  font-weight: bolder;
+}
+.four .bag .boxthree #textthree {
+  display: none;
 }
 
 /* section five */
 
-.five{
-    height: 30vh;
-    width: 100vw;
-    text-align: center;
+.five {
+  height: 50vh;
+  width: 100vw;
+  text-align: center;
+}
+.five h3{
+    font-weight: bolder;
+}
+.five .bagtwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.five .bagtwo .boxfour {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
 }
 
+.five .bagtwo .boxfive {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
 
+.five .bagtwo .boxsix {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
+
+.five .bagtwo .boxseven {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+  }
