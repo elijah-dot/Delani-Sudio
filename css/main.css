@@ -153,8 +153,8 @@ body {
   width: 100vw;
   text-align: center;
 }
-.five h3{
-    font-weight: bolder;
+.five h3 {
+  font-weight: bolder;
 }
 .five .bagtwo {
   display: flex;
@@ -168,19 +168,41 @@ body {
 }
 
 .five .bagtwo .boxfive {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
 
 .five .bagtwo .boxsix {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
 
 .five .bagtwo .boxseven {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-  }
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+.imageone {
+  background-image: url(../images/work4.png);
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imageone .overlaythree {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background:rgb(255, 255, 255, 0.3);
+  display: block;
+}
+.imageone .overlaythree .logo {
+    margin-top: 60px;
+    color: aliceblue;
+}
+.imageone .overlaythree .logo h3 {
+    padding: 10px;
+}
+
