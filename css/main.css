@@ -107,8 +107,21 @@ body {
     justify-content: space-between;
 }
 .four .bag .boxone{
-    border: solid black 1px;
+    border: solid transparent 1px;
     width: 30vw;
+    font-weight: bold;
+}
+
+.four .bag .boxtwo{
+    border: solid transparent 1px;
+    width: 30vw;
+    font-weight: bold;
+}
+
+.four .bag .boxthree{
+    border: solid transparent 1px;
+    width: 30vw;
+    font-weight: bold;
 }
 
 
