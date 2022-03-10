@@ -184,6 +184,7 @@ body {
   height: 300px;
   width: 300px;
 }
+/* boxfour */
 .imageone {
   background-image: url(../images/work4.png);
   height: 300px;
@@ -195,14 +196,91 @@ body {
   text-align: center;
   height: 300px;
   width: 300px;
-  background:rgb(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255, 0.2);
   display: block;
 }
 .imageone .overlaythree .logo {
-    margin-top: 60px;
-    color: aliceblue;
+  margin-top: 60px;
+   color: aliceblue;
 }
 .imageone .overlaythree .logo h3 {
-    padding: 10px;
+  padding: 10px;
+}
+/* boxfive */
+.imagetwo {
+  background-image: url(../images/work3.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imagetwo .overlayfour {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imagetwo .overlayfour .logo {
+  margin-top: 60px;
+  color:aliceblue;
+}
+.imagetwo .overlayfour .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
 }
 
+/* boxsix */
+
+.imagethree {
+  background-image: url(../images/work2.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imagethree .overlayfive {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imagethree .overlayfive .logo {
+  margin-top: 60px;
+  color: orange;
+}
+.imagethree .overlayfive .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+/* boxseven */
+
+.imagefour {
+  background-image: url(../images/work1.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imagefour .overlaysix {
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background: rgb(255, 255, 255, 0.2);
+  display: block;
+}
+.imagefour .overlaysix .logo {
+  margin-top: 60px;
+  color: orange;
+}
+.imagefour .overlaysix .logo h3 {
+  padding: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
