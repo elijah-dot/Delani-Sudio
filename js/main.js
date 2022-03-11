@@ -121,6 +121,7 @@ function validate() {
     type_error.innerHTML = "enter email";
     type_error.style.color = "red";
     type_error.style.fontSize = "30px";
+    type_error.style.fontWeight = "bolder";
     emailInput.focus();
     return false;
   } else {
@@ -131,6 +132,7 @@ function validate() {
     type_error.innerHTML = "enter name";
     type_error.style.color = "red";
     type_error.style.fontSize = "30px";
+    type_error.style.fontWeight = "bolder";
     nameInput.focus();
     return false;
   } else {
@@ -142,11 +144,26 @@ function validate() {
     type_error.innerHTML = "write your message";
     type_error.style.color = "red";
     type_error.style.fontSize = "30px";
+    type_error.style.fontWeight = "bolder";
     messages.focus();
     return false;
   } else {
     messages.style.border = "solid 2px green";
-    type_error.innerHTML = "";
+    type_error.innerHTML = "your message has been"  + "<br>"  +  "received and recorded";
+    type_error.style.color = "yellowgreen";
+    type_error.style.fontSize = "30px";
+    type_error.style.fontWeight = "bolder";
   }
 }
 //reset buton
+
+function rub() {
+  event.preventDefault();
+  emailInput.value = "";
+  nameInput.value = "";
+  messages.value = "";
+  type_error.innerHTML = "Cleared";
+  type_error.style.color = "green";
+  type_error.style.fontSize = "30px";
+  type_error.style.fontWeight = "bolder";
+}
