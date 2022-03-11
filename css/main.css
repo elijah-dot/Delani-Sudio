@@ -6,6 +6,8 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+
+/* section one */
 .one {
   background-image: url(../images/h_img.png);
   height: 100vh;
@@ -420,7 +422,7 @@ body {
 .six {
   position: relative;
   background-image: url(../images/c_image.png);
-  height:75vh;
+  height: 75vh;
   width: 100vw;
   background-size: cover;
 }
@@ -441,11 +443,22 @@ body {
   height: 40vh;
   width: 60vw;
   margin: 30px;
-  text-align: center;
+  color: aliceblue;
+  font-weight: bolder;
 }
-/* about inputs */
-
-/* section seven */
+#name,
+#email,
+#message {
+  background: transparent;
+}
+::placeholder {
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: start;
+}
+#message {
+  margin-bottom: 35vh;
+}
 
 .seven {
   height: 10vh;
