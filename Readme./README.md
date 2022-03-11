@@ -74,12 +74,12 @@
 
 ## licence
 
-copyright (c) [2019] [https://github.com/elijah-dot/African-name/blob/master/LICENSE]
+copyright (c) [2019] [https://github.com/elijah-dot/Delani-Sudio/blob/master/LICENSE]
 
 ## authors info
 
 linked - [Elijah Mwangi Wangu]
-(https://github.com/elijah-dot/African-name)
+(https://github.com/elijah-dot/Delani-Sudio)
 
 email - [Elijah Mwangi Wangu]
 (elijahwangu91@gmail.com
