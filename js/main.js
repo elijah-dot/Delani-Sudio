@@ -108,15 +108,13 @@ $("#mo").hover(
   }
 );
 
-// validation for all the inputs
+let emailInput = document.forms["form"]["email"];
+let nameInput = document.forms["form"]["name"];
 
-let emailInput = document.getElementById("email");
-let nameInput = document.getElementById("name");
 let type_error = document.getElementById("name_error");
 let messages = document.getElementById("message");
 
 function validate() {
-  event.preventDefault;
   if (emailInput.value <= 0) {
     type_error.innerHTML = "enter email";
     type_error.style.color = "red";
@@ -139,7 +137,6 @@ function validate() {
     nameInput.style.border = "solid 2px green";
     type_error.innerHTML = "";
   }
-
   if (messages.value <= 0) {
     type_error.innerHTML = "write your message";
     type_error.style.color = "red";
@@ -149,16 +146,17 @@ function validate() {
     return false;
   } else {
     messages.style.border = "solid 2px green";
-    type_error.innerHTML = "your message has been"  + "<br>"  +  "received and recorded";
+    type_error.innerHTML =
+      "your message has been" + "<br>" + "received and recorded";
     type_error.style.color = "yellowgreen";
     type_error.style.fontSize = "30px";
     type_error.style.fontWeight = "bolder";
   }
 }
+
 //reset buton
 
 function rub() {
-  event.preventDefault();
   emailInput.value = "";
   nameInput.value = "";
   messages.value = "";

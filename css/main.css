@@ -460,6 +460,8 @@ body {
   margin-bottom: 35vh;
 }
 
+/* section seven */
+
 .seven {
   height: 10vh;
   width: 100vw;
@@ -468,5 +470,16 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-left: 500px;
+  margin-left: 200px;
+}
+
+/* section last */
+.last{
+  text-align: center;
+  height: 10vh;
+  width: 100vw;
+}
+.last h4{
+  margin-top: 30px;
+  font-weight: bolder;
 }
